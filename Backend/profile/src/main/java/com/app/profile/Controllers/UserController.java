@@ -27,14 +27,7 @@ public class UserController {
 	}
 	
 	
-	@GetMapping
-	public ResponseEntity<User> getUser(){
-		User user = new User();
-		user.setUsername("sumit");
-		user.setEmail("sam@gmail.com");
-		user.setPassword("1234");
-		return ResponseEntity.ok(user);
-	}
+	
 	
 	@PostMapping("/login")
 	public ResponseEntity<String> getUser(@RequestBody User user){

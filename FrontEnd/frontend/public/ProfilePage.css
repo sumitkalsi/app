@@ -1,0 +1,47 @@
+
+.container{
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+  
+}
+
+.profileBox{
+    display: flex;
+     flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+   background-color: antiquewhite;
+}
+.dp{
+    background-color: #ffffff;
+    width: 200px;
+    height:200px;
+  
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.btn  {
+    width: 10%;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

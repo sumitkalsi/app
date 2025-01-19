@@ -1,5 +1,6 @@
 
 import LoginPage from "./LoginPage"
+import ProfilePage from "./ProfilePage"
 
 
 
@@ -8,8 +9,10 @@ function App() {
 
 
   return (
-  
-  <LoginPage/>
+   <>
+   <ProfilePage />
+   {/* <LoginPage /> */}
+   </>
   
   
   )
